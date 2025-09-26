@@ -1,85 +1,20 @@
-/* 共通設定 */
-body {
-  font-family: "Segoe UI", sans-serif;
-  margin: 0;
-  background-color: #f4f4f9;
-  color: #333;
-  line-height: 1.6;
+/* 既存のCSSの後に追記 */
+
+.eyecatch {
+  width: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  display: block;
 }
 
-/* ヘッダー */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 1em 0;
-}
-
-header .container {
-  max-width: 960px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1em;
-}
-
-header h1 {
-  margin: 0;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1em;
-  margin: 0;
-  padding: 0;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* メイン */
-main {
-  max-width: 960px;
-  margin: 2em auto;
-  padding: 0 1em;
-}
-
-section {
-  margin-bottom: 2em;
-}
-
-h2 {
-  color: #4a90e2;
-}
-
-/* ボタン */
-.button {
+section#contact a {
   display: inline-block;
-  background-color: #4a90e2;
-  color: white;
-  padding: 0.8em 1.5em;
-  border-radius: 5px;
-  text-decoration: none;
+  margin: 0.5em 0;
+  color: #4a90e2;
   font-weight: bold;
-  transition: background-color 0.3s;
+  text-decoration: none;
 }
 
-.button:hover {
-  background-color: #357ab7;
-}
-
-/* フッター */
-footer {
-  background-color: #ddd;
-  text-align: center;
-  padding: 1em;
-  font-size: 0.9em;
+section#contact a:hover {
+  text-decoration: underline;
 }
