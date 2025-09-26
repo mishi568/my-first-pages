@@ -2,18 +2,47 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ようこそ GitHub Pages へ</title>
+  <title>自作アプリ紹介ページ</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>こんにちは、GitHub Pages！</h1>
+    <div class="container">
+      <h1>My App Lab</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">概要</a></li>
+          <li><a href="#features">特徴</a></li>
+          <li><a href="#download">ダウンロード</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
   <main>
-    <p>これはHTMLとCSSを分けて作った、最初のシンプルなページです。</p>
+    <section id="about">
+      <h2>アプリの概要</h2>
+      <p>このアプリは、あなたの作業を効率化するために開発されました。Windows向けの軽量アプリで、誰でも簡単に使うことができます。</p>
+    </section>
+
+    <section id="features">
+      <h2>主な機能</h2>
+      <ul>
+        <li>✔ ワンクリック実行</li>
+        <li>✔ 軽量で高速</li>
+        <li>✔ ローカル環境で完結</li>
+      </ul>
+    </section>
+
+    <section id="download">
+      <h2>ダウンロード</h2>
+      <p>以下のボタンからアプリをダウンロードできます：</p>
+      <a class="button" href="myapp.zip" download>アプリをダウンロード（ZIP）</a>
+    </section>
   </main>
+
   <footer>
-    <p>&copy; 2025 自作アプリラボ</p>
+    <p>&copy; 2025 My App Lab</p>
   </footer>
 </body>
 </html>
